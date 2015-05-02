@@ -1,25 +1,25 @@
 {
   "name": "magnetis-mobile",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mobile friendly version of Magnetis dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "karma start"
   },
-  "author": "",
+  "author": "Luciano Tavares <luciano@magnetis.com.br>",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^5.2.6",
-    "babel-loader": "^5.0.0",
+    "browserify": "^10.0.0",
     "expect": "^1.6.0",
     "karma": "^0.12.31",
+    "karma-browserify": "^4.1.2",
     "karma-chrome-launcher": "^0.1.8",
-    "karma-cli": "0.0.4",
     "karma-expect": "^1.1.0",
     "karma-mocha": "^0.1.10",
-    "karma-sourcemap-loader": "^0.3.4",
-    "karma-webpack": "^1.5.0",
     "mocha": "^2.2.4",
-    "webpack": "^1.8.11"
+    "reactify": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.2"
   }
 }
