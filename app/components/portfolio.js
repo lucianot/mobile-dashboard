@@ -2,7 +2,7 @@
 'use strict';
 
 var React 	= require('react'),
-		Summary = require('./summary');
+		PortfolioSummary = require('./portfolio_summary');
 
 var Portfolio = React.createClass({
 
@@ -35,7 +35,7 @@ var Portfolio = React.createClass({
     return (
       <div>
         <h2>Sua Carteira</h2>
-        <Summary data={this.state.data} />
+        <PortfolioSummary data={this.state.data} />
       </div>
     );
   }

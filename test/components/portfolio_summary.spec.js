@@ -1,17 +1,17 @@
 'use strict';
 
-var React 		= require('react'),
-		TestUtils = require('react/lib/ReactTestUtils'),
-		Summary	  = require('../../app/components/summary'),
+var React 		        = require('react'),
+		TestUtils         = require('react/lib/ReactTestUtils'),
+		PortfolioSummary  = require('../../app/components/portfolio_summary'),
 		instance;
 
-describe("Summary", function() {
+describe("PortfolioSummary", function() {
   beforeEach(function() {
     var data = {
       currentValue: "R$ 100.000,00",
       returnSinceInception: "+1,00%"
     };
-    instance = TestUtils.renderIntoDocument(<Summary data={data} />);
+    instance = TestUtils.renderIntoDocument(<PortfolioSummary data={data} />);
   });
 
   it("should render the heading", function() {

@@ -3,7 +3,7 @@
 
 var React = require('react');
 
-var Summary = React.createClass({
+var PortfolioSummary = React.createClass({
   render: function() {
     return (
       <div>
@@ -20,4 +20,4 @@ var Summary = React.createClass({
   }
 });
 
-module.exports = Summary;
+module.exports = PortfolioSummary;
