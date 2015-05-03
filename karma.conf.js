@@ -26,6 +26,8 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
+      'app/bundle.js',
+      'app/main.js'
     ],
 
     // preprocess matching files before serving them to the browser
