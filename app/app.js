@@ -1,13 +1,15 @@
 /** @jsx React.DOM */
 'use strict';
 
-var React = require('react');
+var React 		= require('react'),
+		Portfolio = require('./components/portfolio');
 
 var App = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <h1>{this.props.title}</h1>
+	      <Portfolio />
       </div>
     );
   }
