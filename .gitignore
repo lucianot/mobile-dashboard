@@ -1,5 +1,5 @@
 # Bundle
-app/bundle
+app/bundle.js
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
