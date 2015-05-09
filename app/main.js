@@ -5,6 +5,6 @@ var React = require('react');
 var App = require('./app');
 
 React.render(
-  <App title="Magnetis Mobile"/>,
+  <App title="Mobile Dashboard"/>,
   document.getElementById('app')
 );

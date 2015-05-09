@@ -1,7 +1,7 @@
 {
-  "name": "magnetis-mobile",
+  "name": "mobile-dashboard",
   "version": "1.0.0",
-  "description": "Mobile friendly version of Magnetis dashboard",
+  "description": "Mobile friendly version of the portfolio dashboard",
   "main": "index.js",
   "scripts": {
     "test": "karma start"
